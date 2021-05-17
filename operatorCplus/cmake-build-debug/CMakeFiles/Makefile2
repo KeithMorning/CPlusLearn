@@ -64,16 +64,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus
+CMAKE_SOURCE_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/QuickCPlus.dir/all
+all: CMakeFiles/operatorCplus.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/QuickCPlus.dir/clean
+clean: CMakeFiles/operatorCplus.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/QuickCPlus.dir
+# Target rules for target CMakeFiles/operatorCplus.dir
 
 # All Build rule for target.
-CMakeFiles/QuickCPlus.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuickCPlus.dir/build.make CMakeFiles/QuickCPlus.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuickCPlus.dir/build.make CMakeFiles/QuickCPlus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target QuickCPlus"
-.PHONY : CMakeFiles/QuickCPlus.dir/all
+CMakeFiles/operatorCplus.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operatorCplus.dir/build.make CMakeFiles/operatorCplus.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operatorCplus.dir/build.make CMakeFiles/operatorCplus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target operatorCplus"
+.PHONY : CMakeFiles/operatorCplus.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/QuickCPlus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/QuickCPlus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/QuickCPlus.dir/rule
+CMakeFiles/operatorCplus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/operatorCplus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/operatorCplus.dir/rule
 
 # Convenience name for target.
-QuickCPlus: CMakeFiles/QuickCPlus.dir/rule
+operatorCplus: CMakeFiles/operatorCplus.dir/rule
 
-.PHONY : QuickCPlus
+.PHONY : operatorCplus
 
 # clean rule for target.
-CMakeFiles/QuickCPlus.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuickCPlus.dir/build.make CMakeFiles/QuickCPlus.dir/clean
-.PHONY : CMakeFiles/QuickCPlus.dir/clean
+CMakeFiles/operatorCplus.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operatorCplus.dir/build.make CMakeFiles/operatorCplus.dir/clean
+.PHONY : CMakeFiles/operatorCplus.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

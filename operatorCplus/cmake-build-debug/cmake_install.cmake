@@ -1,4 +1,4 @@
-# Install script for directory: /Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus
+# Install script for directory: /Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

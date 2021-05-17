@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/main.cpp" "/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles/QuickCPlus.dir/main.cpp.o"
+  "/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/functionLearn.cpp" "/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug/CMakeFiles/operatorCplus.dir/functionLearn.cpp.o"
+  "/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/main.cpp" "/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/cmake-build-debug/CMakeFiles/operatorCplus.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

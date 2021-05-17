@@ -6,6 +6,7 @@
 using std::cin; using std::cout;using std::endl;
 using std::string;
 using std::vector;
+using std::begin;using std::end;
 
 vector<string> mySplit(string a,char spli);
 vector<int> readNum(char spli);
@@ -112,5 +113,66 @@ void exampleIter(){
    for(auto i :vc32){
        cout << i << endl;
    }
+
+
+   vector<int> a{1,2,3,4,5,6};
+   auto start = a.begin();
+   auto end = a.end();
+   auto mid = start + (end - start) / 2;
+   int target = 3;
+    while (mid != end && *mid != target){
+        if(target < *mid){
+            end = mid;
+        }else{
+            start = mid + 1;
+        }
+        mid = start + (end - start) / 2;
+    }
+    cout << *mid << endl;
+
+    int excise[3] = {199,299,399};
+    auto excise_cp = excise;
+    cout << excise_cp[1] << endl;
+
+    int ia[] = {10,20,30,30};
+    decltype(ia) ia3 = {11,21,31,-1};
+    ia3[2] = 22;
+    cout << ia3[2] << endl;
+
+    int *beg  = begin(ia3);
+    int *last = std::end(ia3);
+    while(beg != last && *beg > 0){
+        ++beg;
+    }
+    cout << *beg << endl;
+
+    int iia[] = {0,2,4,6,8};
+    int *p = &iia[2]; // 从第三个开始
+
+    int j_152 = p[1];
+    int k_153 = p[-2];
+    cout << "j " << j_152 << " k " << k_153 << endl; // j 6 k 0
+
+
+    int int_array[] = {1,2,3,4,5,6};
+    vector<int> int_vector_array(begin(int_array),std::end(int_array));
+    auto v_begin = int_vector_array.begin();
+    while (v_begin != int_vector_array.end()){
+        cout << *v_begin << endl;
+        v_begin++;
+    }
+
+    int ar_size = int_vector_array.size();
+    int int_array_cp[ar_size];
+    for(int i = 0; i < ar_size; i++){
+        int_array_cp[i] = int_vector_array[i];
+    }
+
+    cout << "int copy from vector is" << endl;
+    for(int i = 0;i<ar_size;i++){
+        cout << int_array_cp[i] <<endl;
+    }
+
+
 
 }

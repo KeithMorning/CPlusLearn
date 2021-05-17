@@ -1,3 +1,3 @@
-/Users/keithxi/Documents/Code/C++/QuickCPlus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/keithxi/Documents/Code/C++/QuickCPlus/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/keithxi/Documents/Code/C++/QuickCPlus/cmake-build-debug/CMakeFiles/QuickCPlus.dir
+/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/keithxi/Documents/Code/C++/CPlusLearn/QuickCPlus/cmake-build-debug/CMakeFiles/QuickCPlus.dir
