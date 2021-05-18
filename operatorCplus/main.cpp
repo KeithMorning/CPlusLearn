@@ -1,6 +1,7 @@
 #include <iostream>
 #include "functionLearn.h"
 #include <string>
+#include <vector>
 
 //左值和右值的区别
 
@@ -32,7 +33,7 @@ int main() {
 
     std::cout << arry[0] << std::endl;
     std::vector<std::string> pa{"a","b"};
-    printvect(pa)
+    printvect(pa);
 
     return 0;
 

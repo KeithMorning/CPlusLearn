@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/ClassLearn/NoDefault.cpp
+NoDefault.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/ClassLearn/NoDefault.h
+vector
+-
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/ClassLearn/NoDefault.h
+

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/functionLearn.cpp
+functionLearn.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/functionLearn.h
+initializer_list
+-
+string
+-
+iostream
+-
+vector
+-
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/functionLearn.h
+initializer_list
+-
+string
+-
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/main.cpp
+iostream
+-
+functionLearn.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/operatorCplus/functionLearn.h
+string
+-
+vector
+-
+

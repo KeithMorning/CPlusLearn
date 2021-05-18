@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.cpp
+IOLab.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.h
+fstream
+-
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.h
+iostream
+-
+vector
+-
+
