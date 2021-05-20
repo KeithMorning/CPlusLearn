@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn
+CMAKE_SOURCE_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug/CMakeFiles /Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/cmake-build-debug/CMakeFiles /Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,71 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named IOLearn
+# Target rules for targets named dataContainer
 
 # Build rule for target.
-IOLearn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IOLearn
-.PHONY : IOLearn
+dataContainer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dataContainer
+.PHONY : dataContainer
 
 # fast build rule for target.
-IOLearn/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/build
-.PHONY : IOLearn/fast
+dataContainer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/build
+.PHONY : dataContainer/fast
 
-IOLab.o: IOLab.cpp.o
+DataList.o: DataList.cpp.o
 
-.PHONY : IOLab.o
-
-# target to build an object file
-IOLab.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/IOLab.cpp.o
-.PHONY : IOLab.cpp.o
-
-IOLab.i: IOLab.cpp.i
-
-.PHONY : IOLab.i
-
-# target to preprocess a source file
-IOLab.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/IOLab.cpp.i
-.PHONY : IOLab.cpp.i
-
-IOLab.s: IOLab.cpp.s
-
-.PHONY : IOLab.s
-
-# target to generate assembly for a file
-IOLab.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/IOLab.cpp.s
-.PHONY : IOLab.cpp.s
-
-StringIO.o: StringIO.cpp.o
-
-.PHONY : StringIO.o
+.PHONY : DataList.o
 
 # target to build an object file
-StringIO.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/StringIO.cpp.o
-.PHONY : StringIO.cpp.o
+DataList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/DataList.cpp.o
+.PHONY : DataList.cpp.o
 
-StringIO.i: StringIO.cpp.i
+DataList.i: DataList.cpp.i
 
-.PHONY : StringIO.i
+.PHONY : DataList.i
 
 # target to preprocess a source file
-StringIO.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/StringIO.cpp.i
-.PHONY : StringIO.cpp.i
+DataList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/DataList.cpp.i
+.PHONY : DataList.cpp.i
 
-StringIO.s: StringIO.cpp.s
+DataList.s: DataList.cpp.s
 
-.PHONY : StringIO.s
+.PHONY : DataList.s
 
 # target to generate assembly for a file
-StringIO.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/StringIO.cpp.s
-.PHONY : StringIO.cpp.s
+DataList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/DataList.cpp.s
+.PHONY : DataList.cpp.s
 
 main.o: main.cpp.o
 
@@ -203,7 +176,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +185,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -221,7 +194,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IOLearn.dir/build.make CMakeFiles/IOLearn.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataContainer.dir/build.make CMakeFiles/dataContainer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -232,13 +205,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... IOLearn"
-	@echo "... IOLab.o"
-	@echo "... IOLab.i"
-	@echo "... IOLab.s"
-	@echo "... StringIO.o"
-	@echo "... StringIO.i"
-	@echo "... StringIO.s"
+	@echo "... dataContainer"
+	@echo "... DataList.o"
+	@echo "... DataList.i"
+	@echo "... DataList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.cpp
-IOLab.h
-/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/StringIO.cpp
+StringIO.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/StringIO.h
 fstream
 -
-
-/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.h
-iostream
+sstream
+-
+string
 -
 vector
+-
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/StringIO.h
+iostream
+-
+string
 -
 

@@ -3,4 +3,4 @@ project(IOLearn)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(IOLearn main.cpp IOLab.cpp IOLab.h)
+add_executable(IOLearn main.cpp IOLab.cpp IOLab.h StringIO.cpp StringIO.h)

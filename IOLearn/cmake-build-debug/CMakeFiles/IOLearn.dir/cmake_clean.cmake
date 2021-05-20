@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/IOLearn.dir/IOLab.cpp.o"
+  "CMakeFiles/IOLearn.dir/StringIO.cpp.o"
   "CMakeFiles/IOLearn.dir/main.cpp.o"
   "IOLearn"
   "IOLearn.pdb"

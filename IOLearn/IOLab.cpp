@@ -21,8 +21,14 @@ std::istream & IOLab::read(std::istream &in) {
 
 std::vector<std::string> IOLab::readfilestr(std::string filename) {
     std::ifstream input;
-    input.open(filename);
-    std::ofstream out(filename+"copy");
+    // 模式 in 只读模式
+    // out 写模式
+    // app 每次写操作前均定位到文件末尾
+    // ate 打开文件后立即定位到文件末尾
+    // trunc 截断文件
+    // binary 以二进制方式进行 IO
+    input.open(filename); // 默认为 in
+    std::ofstream out(filename+"copy"); //默认为 out
 
     std::string tmp;
     std::vector<std::string> rs;

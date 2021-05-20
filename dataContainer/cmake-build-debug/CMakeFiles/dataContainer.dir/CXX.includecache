@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/DataList.h
+list
+-
+deque
+-
+vector
+-
+forward_list
+-
+string
+-
+
+/Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/main.cpp
+iostream
+-
+DataList.h
+/Users/keithxi/Documents/Code/C++/CPlusLearn/dataContainer/DataList.h
+deque
+-
+

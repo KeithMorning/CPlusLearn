@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.cpp" "/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug/CMakeFiles/IOLearn.dir/IOLab.cpp.o"
+  "/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/StringIO.cpp" "/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug/CMakeFiles/IOLearn.dir/StringIO.cpp.o"
   "/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/main.cpp" "/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/cmake-build-debug/CMakeFiles/IOLearn.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

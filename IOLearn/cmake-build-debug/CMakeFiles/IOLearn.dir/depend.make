@@ -4,6 +4,9 @@
 CMakeFiles/IOLearn.dir/IOLab.cpp.o: ../IOLab.cpp
 CMakeFiles/IOLearn.dir/IOLab.cpp.o: ../IOLab.h
 
-CMakeFiles/IOLearn.dir/main.cpp.o: ../IOLab.h
+CMakeFiles/IOLearn.dir/StringIO.cpp.o: ../StringIO.cpp
+CMakeFiles/IOLearn.dir/StringIO.cpp.o: ../StringIO.h
+
+CMakeFiles/IOLearn.dir/main.cpp.o: ../StringIO.h
 CMakeFiles/IOLearn.dir/main.cpp.o: ../main.cpp
 

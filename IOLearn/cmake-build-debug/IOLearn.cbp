@@ -86,6 +86,12 @@
 		<Unit filename="/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/IOLab.h">
 			<Option target="IOLearn"/>
 		</Unit>
+		<Unit filename="/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/StringIO.cpp">
+			<Option target="IOLearn"/>
+		</Unit>
+		<Unit filename="/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/StringIO.h">
+			<Option target="IOLearn"/>
+		</Unit>
 		<Unit filename="/Users/keithxi/Documents/Code/C++/CPlusLearn/IOLearn/main.cpp">
 			<Option target="IOLearn"/>
 		</Unit>
